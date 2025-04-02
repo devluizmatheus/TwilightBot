@@ -1,0 +1,37 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.sqlite3
+
+# Arquivos de ambiente
+.env
+
+# Arquivos do editor (ex: VSCode, PyCharm, etc.)
+.vscode/
+.idea/
+
+# Dependências (geralmente são controladas pelo requirements.txt ou Pipfile)
+Pipfile.lock
+*.egg-info/
+dist/
+build/
+
+# Arquivos temporários
+*.log
+*.pot
+*.pyc
+*.pyo
+
+# Arquivos de caches
+__pycache__/
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
