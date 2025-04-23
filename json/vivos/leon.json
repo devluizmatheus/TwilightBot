@@ -1,0 +1,90 @@
+{
+    "nome": "Ian",
+    "nome_personagem": "Leon Carter",
+    "classe": "Ex Militar",
+    "idade": 28,
+    "sexo": "Masculino",
+    "raca": "Humano",
+
+    "atributos": {
+        "forca": 5,
+        "constituicao": 6,
+        "inteligencia": 3,
+        "destreza": 3,
+        "sorte": 2,
+        "carisma": 3 
+    },
+
+    "status": {
+        "hp": 60,
+        "df": 30,
+        "st": "32/32",
+        "san": 100
+    },
+
+    "inventario": {
+        "atadura": {
+            "nome": "Atadura",
+            "descricao": "Um item de cura de pequeno porte para curar ferimentos leves",
+            "tipo": "CONSUM",
+            "raridade": "INCOMUM",
+            "alcance": "CORPO",
+            "dado": "1d6",
+            "efeito": ["HEALER"],
+            "quantidade": 5
+        },
+        "entalado": {
+            "nome": "Enlatado",
+            "descricao": "Alimento de baixo-médio nível para refeições rápidas e práticas",
+            "tipo": "CONSUM",
+            "raridade": "COMUM",
+            "alcance": "CORPO",
+            "dado": "1d6",
+            "efeito": ["HEALER", "STAN"], 
+            "quantidade": 5
+        },
+        "antisseptico": {
+            "nome": "Antisséptico",
+            "descricao": "substância utilizada para interromper e impedir o desenvolvimento de microrganismos, como bactérias, vírus e fungos, na superfície da pele e mucosas",
+            "tipo": "CONSUM",
+            "raridade": "INCOMUM",
+            "alcance": "CORPO",
+            "dado": "1d6",
+            "efeito": ["ANT"],
+            "quantidades": 2
+        },
+        "baretta": {
+            "nome": "Baretta",
+            "descricao": "A Beretta é uma pistola de design elegante e funcional, feita com materiais de alta qualidade. Seu corpo de metal polido e sua empunhadura ergonômica garantem conforto e precisão em cada disparo",
+            "tipo": "ATTTACK",
+            "raridade": "COMUM",
+            "alcance": "MEDIO",
+            "dado": "1d10",
+            "efeito": ["BLOOD"],
+            "quantidade": 1
+        },
+        "faca_tatica": {
+            "nome": "Faca Tática",
+            "descricao": "Uma faca tática de combate, com lâmina de aço carbono afiada e durável, projetada para resistência e precisão em situações extremas.",
+            "tipo": "ATTTACK",
+            "raridade": "INCOMUM",
+            "alcance": "CORPO",
+            "dado": "1d8",
+            "efeito": ["BLOOD"],
+            "quantidade": 1
+        },
+        ".9mm": {
+            "nome": ".9mm",
+            "descricao": "Munição 9mm, popular e amplamente usada, conhecida pela sua versatilidade e precisão",
+            "tipo": "MUNI",
+            "raridade": "COMUM",
+            "alcance": null,
+            "dado": null,
+            "efeito": null,
+            "quantidade": 30
+        }
+
+
+    }
+
+}

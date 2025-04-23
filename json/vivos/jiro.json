@@ -1,0 +1,79 @@
+{
+    "nome": "Rick",
+    "nome_personagem": "Jiro Daisuchi",
+    "classe": "Atirador de Elite",
+    "idade": 25,
+    "sexo": "Masculino",
+    "raca": "Humano",
+
+    "atributos": {
+        "forca": 3,
+        "constituicao": 4,
+        "inteligencia": 2,
+        "destreza": 5,
+        "sorte": 3,
+        "carisma": 4 
+    },
+
+    "status": {
+        "hp": 40,
+        "df": 20,
+        "st": "40/40",
+        "san": 100
+    },
+
+    "inventario": {
+        "atadura": {
+            "nome": "Atadura",
+            "descricao": "Um item de cura de pequeno porte para curar ferimentos leves",
+            "tipo": "CONSUM",
+            "raridade": "INCOMUM",
+            "alcance": "CORPO",
+            "dado": "1d6",
+            "efeito": ["HEALER"],
+            "quantidade": 5
+        },
+        "entalado": {
+            "nome": "Enlatado",
+            "descricao": "Alimento de baixo-médio nível para refeições rápidas e práticas",
+            "tipo": "CONSUM",
+            "raridade": "COMUM",
+            "alcance": "CORPO",
+            "dado": "1d6",
+            "efeito": ["HEALER", "STAN"], 
+            "quantidade": 5
+        },
+        "antisseptico": {
+            "nome": "Antisséptico",
+            "descricao": "substância utilizada para interromper e impedir o desenvolvimento de microrganismos, como bactérias, vírus e fungos, na superfície da pele e mucosas",
+            "tipo": "CONSUM",
+            "raridade": "INCOMUM",
+            "alcance": "CORPO",
+            "dado": "1d6",
+            "efeito": ["ANT"],
+            "quantidades": 2
+        },
+        "revolver_duplo": {
+            "nome": "Revolver Duplo",
+            "descricao": "Um revólver de dois canos, robusto e imponente. Suas culatas de madeira escura e metal escovado transmitem força e confiança",
+            "tipo": "ATTTACK",
+            "raridade": "INCOMUM",
+            "alcance": "MEDIO",
+            "dado": "2d110",
+            "efeito": ["BLOOD"],
+            "quantidade": 1
+        },
+        ".45ACP": {
+            "nome": ".45 ACP",
+            "descricao": "Munição .45 ACP, poderosa e impactante. Cartuchos robustos com projéteis de grande diâmetro, projetados para garantir uma parada rápida e eficaz.",
+            "tipo": "MUNI",
+            "raridade": "COMUM",
+            "alcance": null,
+            "dado": null,
+            "efeito": null,
+            "quantidade": 30
+        }  
+
+    }
+
+}

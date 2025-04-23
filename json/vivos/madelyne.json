@@ -1,0 +1,79 @@
+{
+    "nome": "Vitória",
+    "nome_personagem": "Madelyne O'Neil",
+    "classe": "Mecânica",
+    "idade": 23,
+    "sexo": "Feminino",
+    "raca": "Humano",
+
+    "atributos": {
+        "forca": 4,
+        "constituicao": 5,
+        "inteligencia": 4,
+        "destreza": 3,
+        "sorte": 2,
+        "carisma": 3 
+    },
+
+    "status": {
+        "hp": 50,
+        "df": 25,
+        "st": "27/27",
+        "san": 100
+    },
+
+    "inventario": {
+        "atadura": {
+            "nome": "Atadura",
+            "descricao": "Um item de cura de pequeno porte para curar ferimentos leves",
+            "tipo": "CONSUM",
+            "raridade": "INCOMUM",
+            "alcance": "CORPO",
+            "dado": "1d6",
+            "efeito": ["HEALER"],
+            "quantidade": 5
+        },
+        "entalado": {
+            "nome": "Enlatado",
+            "descricao": "Alimento de baixo-médio nível para refeições rápidas e práticas",
+            "tipo": "CONSUM",
+            "raridade": "COMUM",
+            "alcance": "CORPO",
+            "dado": "1d6",
+            "efeito": ["HEALER", "STAN"], 
+            "quantidade": 5
+        },
+        "antisseptico": {
+            "nome": "Antisséptico",
+            "descricao": "substância utilizada para interromper e impedir o desenvolvimento de microrganismos, como bactérias, vírus e fungos, na superfície da pele e mucosas",
+            "tipo": "CONSUM",
+            "raridade": "INCOMUM",
+            "alcance": "CORPO",
+            "dado": "1d6",
+            "efeito": ["ANT"],
+            "quantidades": 2
+        },
+        "bastao_arame": {
+            "nome": "Bastão de Arame",
+            "descricao": "Um bastão de metal enferrujado, envolto em arames grossos e afiados que se entrelaçam como uma armadilha mortal.",
+            "tipo": "ATTTACK",
+            "raridade": "INCOMUM",
+            "alcance": "CORPO",
+            "dado": "1d10",
+            "efeito": ["BLOOD"],
+            "quantidade": 1
+        },
+        "taser": {
+            "nome": "Taser",
+            "descricao": "Arma de choque portátil usada para imobilizar inimigos a curta distância",
+            "tipo": "ATTTACK",
+            "raridade": "INCOMUM",
+            "alcance": "CORPO",
+            "dado": "1d4",
+            "efeito": ["PARAZ"],
+            "quantidade": 1
+        }
+
+    }
+
+}

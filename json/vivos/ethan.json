@@ -1,0 +1,89 @@
+{
+    "nome": "João",
+    "nome_personagem": "Ethan Mercer",
+    "classe": "Caçador",
+    "idade": 27,
+    "sexo": "Masculino",
+    "raca": "Humano",
+
+    "atributos": {
+        "forca": 4,
+        "constituicao": 5,
+        "inteligencia": 4,
+        "destreza": 5,
+        "sorte": 1,
+        "carisma": 2 
+    },
+
+    "status": {
+        "hp": 50,
+        "df": 25,
+        "st": "40/40",
+        "san": 100
+    },
+
+    "inventario": {
+        "atadura": {
+            "nome": "Atadura",
+            "descricao": "Um item de cura de pequeno porte para curar ferimentos leves",
+            "tipo": "CONSUM",
+            "raridade": "INCOMUM",
+            "alcance": "CORPO",
+            "dado": "1d6",
+            "efeito": ["HEALER"],
+            "quantidade": 5
+        },
+        "entalado": {
+            "nome": "Enlatado",
+            "descricao": "Alimento de baixo-médio nível para refeições rápidas e práticas",
+            "tipo": "CONSUM",
+            "raridade": "COMUM",
+            "alcance": "CORPO",
+            "dado": "1d6",
+            "efeito": ["HEALER", "STAN"], 
+            "quantidade": 5
+        },
+        "antisseptico": {
+            "nome": "Antisséptico",
+            "descricao": "substância utilizada para interromper e impedir o desenvolvimento de microrganismos, como bactérias, vírus e fungos, na superfície da pele e mucosas",
+            "tipo": "CONSUM",
+            "raridade": "INCOMUM",
+            "alcance": "CORPO",
+            "dado": "1d6",
+            "efeito": ["ANT"],
+            "quantidades": 2
+        },
+        "crossbow": {
+            "nome": "Crossbow",
+            "descricao": "Uma besta moderna, de design robusto e preciso. Feita de polímero e alumínio, com um sistema de corda de alta tensão e mira ajustável",
+            "tipo": "ATTTACK",
+            "raridade": "RARO",
+            "alcance": "LONGO",
+            "dado": "1d12",
+            "efeito": ["BLOOD"],
+            "quantidade": 1
+        },
+        "aljava": {
+            "nome": "Aljava",
+            "descricao": "Uma aljava de couro resistente, projetada para carregar flechas com segurança e facilidade.",
+            "tipo": "ARMAZ",
+            "raridade": "INCOMUM",
+            "alcance": null,
+            "dado": null,
+            "efeito": null,
+            "quantidade": 1
+        },
+        "flechas": {
+            "nome": "Flechas",
+            "descricao": "Flechas de ponta afiada, feitas de metal resistente e madeira leve",
+            "tipo": "MUNI",
+            "raridade": "INCOMUM",
+            "alcance": null,
+            "dado": null,
+            "efeito": null,
+            "quantidade": 30
+        }
+
+    }
+
+}
